@@ -14,7 +14,7 @@ pipeline{
                 
             }
         }
-         stage("Push to Docker Hub"){
+   /*      stage("Push to Docker Hub"){
                steps{
                    
                 echo 'login into docker hub and pushing image....'
@@ -27,7 +27,7 @@ pipeline{
 
                }
            }
-         }
+         } */
            
         stage('Deploy'){
             steps{
